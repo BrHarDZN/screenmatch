@@ -17,7 +17,6 @@ public class Principal {
 
         filme1.exibeFichaTecnica();
 
-
     }
 }
 
