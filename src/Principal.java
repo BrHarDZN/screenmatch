@@ -15,7 +15,6 @@ public class Principal {
         filme1.somaDasAvaliacoes = filme1.pegaMedia();
 
         filme1.exibeFichaTecnica();
-
     }
 }
 
