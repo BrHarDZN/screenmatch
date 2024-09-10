@@ -6,6 +6,7 @@ public class Principal {
         filme1.incluidoNoPlano = true;
         filme1.duracaoEmMinutos = 180;
 
+
         filme1.avalia(9);
         filme1.avalia(7);
         filme1.avalia(4);
@@ -15,6 +16,7 @@ public class Principal {
         filme1.somaDasAvaliacoes = filme1.pegaMedia();
 
         filme1.exibeFichaTecnica();
+
     }
 }
 
