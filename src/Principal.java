@@ -13,9 +13,11 @@ public class Principal {
         filme1.avalia(10);
         filme1.avalia(9);
         filme1.avalia(5);
-        filme1.somaDasAvaliacoes = filme1.pegaMedia();
+
 
         filme1.exibeFichaTecnica();
+        System.out.println(filme1.getTotalDeAvaliacoes());
+
 
     }
 }
