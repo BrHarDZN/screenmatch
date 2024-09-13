@@ -2,25 +2,53 @@ package br.com.alura.screenmatch.modelos;
 
 public class Filme {
 
-    public String nome;
-    public int anoLancamento;
-    public boolean incluidoNoPlano;
+    private String nome;
+    private int anoLancamento;
+    private boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
-    public int duracaoEmMinutos;
+    private int duracaoEmMinutos;
 
     public int getTotalDeAvaliacoes() {
         return totalDeAvaliacoes;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public int getAnoLancamento() {
+        return anoLancamento;
+    }
+
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAnoLancamento(int anoLancamento) {
+        this.anoLancamento = anoLancamento;
+    }
+
+    public void setIncluidoNoPlano(boolean incluidoNoPlano) {
+        this.incluidoNoPlano = incluidoNoPlano;
+    }
+
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
     public void exibeFichaTecnica() {
-        System.out.println("Nome do filme: " + nome);
-        System.out.println("Ano de lançamento: " + anoLancamento);
-        System.out.println("Está incluido no plano: " + incluidoNoPlano);
+        System.out.println("Nome do filme: " + getNome());
+        System.out.println("Ano de lançamento: " + getAnoLancamento());
+        System.out.println("Está incluido no plano: " + getDuracaoEmMinutos());
         pegaMedia();
-        System.out.println("Avaliação: " + somaDasAvaliacoes);
+        System.out.println("Avaliação: " + this.somaDasAvaliacoes);
         System.out.println("Total de avaliações: " + getTotalDeAvaliacoes());
-        System.out.println("Duaração em minutos: " + duracaoEmMinutos);
+        System.out.println("Duaração em minutos: " + this.duracaoEmMinutos);
     }
 
     public void avalia(double nota) {
