@@ -1,17 +1,19 @@
+package br.com.alura.screenmatch.modelos;
+
 public class Filme {
 
-    String nome;
-    int anoLancamento;
-    boolean incluidoNoPlano;
+    public String nome;
+    public int anoLancamento;
+    public boolean incluidoNoPlano;
     private double somaDasAvaliacoes;
     private int totalDeAvaliacoes;
-    int duracaoEmMinutos;
+    public int duracaoEmMinutos;
 
-    int getTotalDeAvaliacoes(){
+    public int getTotalDeAvaliacoes() {
         return totalDeAvaliacoes;
     }
 
-    void exibeFichaTecnica(){
+    public void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lançamento: " + anoLancamento);
         System.out.println("Está incluido no plano: " + incluidoNoPlano);
@@ -21,13 +23,12 @@ public class Filme {
         System.out.println("Duaração em minutos: " + duracaoEmMinutos);
     }
 
-    void avalia(double nota){
+    public void avalia(double nota) {
         somaDasAvaliacoes += nota;
         totalDeAvaliacoes++;
     }
 
-
-     void pegaMedia(){
+    public void pegaMedia() {
         this.somaDasAvaliacoes = somaDasAvaliacoes / totalDeAvaliacoes;
     }
 }

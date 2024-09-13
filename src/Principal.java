@@ -1,3 +1,5 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class Principal {
     public static void main(String[] args) {
         Filme filme1 = new Filme();
@@ -17,7 +19,6 @@ public class Principal {
 
         filme1.exibeFichaTecnica();
         System.out.println(filme1.getTotalDeAvaliacoes());
-
 
     }
 }
