@@ -10,11 +10,12 @@ public class Titulo {
 
     public void exibeFichaTecnica() {
         System.out.println("Nome do filme: " + getNome());
-        System.out.println("Duaração em minutos: " + getDuracaoEmMinutos());
+        System.out.println("Duração em minutos: " + getDuracaoEmMinutos());
         System.out.println("Ano de lançamento: " + getAnoLancamento());
         System.out.println("Está incluido no plano: " + getIncluidoNoPlano());
         System.out.println("Avaliação: " + pegaMedia());
         System.out.println("Total de avaliações: " + getTotalDeAvaliacoes());
+        System.out.println();
     }
 
     public void avalia(double nota) {
