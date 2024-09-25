@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.atividades;
+package br.com.alura.screenmatch.atividades.modificadoresDeacesso;
 
 public class AtividadePincipal {
     public static void main(String[] args) {
