@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.atividades.herança.carro;
+package br.com.alura.screenmatch.atividades.herança.atividade01;
 
 
 //1-Crie uma classe Carro com métodos para representar um modelo específico ao longo de três anos.

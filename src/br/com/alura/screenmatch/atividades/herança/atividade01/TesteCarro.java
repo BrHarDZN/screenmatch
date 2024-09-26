@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.atividades.herança.carro;
+package br.com.alura.screenmatch.atividades.herança.atividade01;
 
 public class TesteCarro {
     public static void main(String[] args) {
