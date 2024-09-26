@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.atividades.modificadoresDeacesso;
+package br.com.alura.screenmatch.atividades.modificadoresDeacesso.atividade05;
 
 
 ///Desenvolva uma classe Livro com os atributos privados titulo e autor. Utilize métodos getters e setters para acessar
