@@ -5,6 +5,8 @@ import br.com.alura.screenmatch.modelos.Serie;
 import br.com.alura.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -20,19 +22,35 @@ public class PrincipalComListas {
         Serie lost = new Serie("Lost", 2000);
 
 
-        ArrayList<Titulo> Lista = new ArrayList<Titulo>();
-        Lista.add(filmeDoPaulo);
-        Lista.add(filme1);
-        Lista.add(filme2);
-        Lista.add(lost);
-//        Lista.forEach(item -> System.out.println(item));
-//        Lista.forEach(System.out::println);
+        ArrayList<Titulo> lista = new ArrayList<Titulo>();
+        lista.add(filmeDoPaulo);
+        lista.add(filme1);
+        lista.add(filme2);
+        lista.add(lost);
+//        lista.forEach(item -> System.out.println(item));
+//        lista.forEach(System.out::println);
 
-        for (Titulo item : Lista) {
+        for (Titulo item : lista) {
             System.out.println(item.getNome());
             if (item instanceof Filme) {
                 System.out.println("Classificação: " + ((Filme) item).getClassificacao());
             }
         }
+
+        ArrayList<String> buscaPorArtistas = new ArrayList<>();
+        buscaPorArtistas.add("Bruno");
+        buscaPorArtistas.add("Adam Sandler");
+        buscaPorArtistas.add("Mairone");
+        buscaPorArtistas.add("Marvin");
+        buscaPorArtistas.add("Paulo");
+        buscaPorArtistas.add("Jaqueline");
+        System.out.println(buscaPorArtistas);
+
+        Collections.sort(buscaPorArtistas);
+        System.out.println("Depois da ordenação");
+        System.out.println(buscaPorArtistas);
+
+        Collections.sort(lista);
+        System.out.println(lista);
     }
 }
