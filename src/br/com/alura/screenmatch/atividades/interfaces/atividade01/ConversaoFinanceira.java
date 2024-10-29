@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.atividades.polimosfismo.atividade01;
+package br.com.alura.screenmatch.atividades.interfaces.atividade01;
 
 public interface ConversaoFinanceira {
     void converterDolarParaReal(double valorDolar);

@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.atividades.polimosfismo.atividade01;
+package br.com.alura.screenmatch.atividades.interfaces.atividade01;
 
 public class ConversorMoeda implements ConversaoFinanceira {
 
