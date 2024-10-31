@@ -1,7 +1,6 @@
 package br.com.alura.screenmatch.atividades.interfaces.atividade06;
 
 public class Teste {
-
     public static void main(String[] args) {
         // 6- Crie uma interface Vendavel com métodos para calcular o preço total de um produto com base na quantidade
         // e aplicar descontos. Implemente essa interface nas classes Produto e Servico, cada uma fornecendo a sua
